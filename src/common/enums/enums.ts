@@ -1,0 +1,10 @@
+enum PostgreStatusCode {
+  INTERNAL_SERVER_ERROR = 500,
+  FORBIDDEN_ERROR = 403,
+  BAD_REQUEST_ERROR = 400,
+  NOT_FOUND_ERROR = 404,
+  SUCCESS_CODE = 200,
+  AUTHORIZATION_ERROR = 401,
+}
+
+export { PostgreStatusCode }
